@@ -1,0 +1,5 @@
+console.log("Hola, Mundo // Español")
+console.log("Hello World // Inglés")
+console.log("Ciao, Mondo // Italiano")
+console.log("Hallo Welt // Alemán")
+console.log("Hola, Món // Catalán")
