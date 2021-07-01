@@ -1,6 +1,6 @@
 // Declare your function first
 function divide(a, b){
-    return 3 / 4;
+    return a / b; 
 }
 
 var result = divide(3, 4);

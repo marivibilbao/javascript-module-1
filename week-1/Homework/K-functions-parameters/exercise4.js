@@ -4,7 +4,7 @@
     }
 // Call the function and assign to a variable `sum`
 
-// Llamo a la función sum1 y le asigno los valores que dice el ejercio.
+// Llamo a la función sum1 y le asigno los valores que dice el ejercicio.
 let sum = sum1(13, 124);
 
 console.log(sum);
