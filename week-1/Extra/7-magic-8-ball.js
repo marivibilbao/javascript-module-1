@@ -1,3 +1,5 @@
+//Profesor comenta que no realizaremos de momento este ejercicio hasta que no nos expliquen ciertos puntos que no hemos visto.
+
 /**
 
 Let's peer into the future using a Magic 8 Ball!
