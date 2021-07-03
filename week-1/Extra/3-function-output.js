@@ -1,15 +1,18 @@
 // Add comments to explain what this function does. You're meant to use Google!
 function getNumber() {
-  return Math.random() * 10;
+  return Math.random() * 10; //La función Math.random() retorna un punto flotante (con decimales), un número pseudo-aleatorio dentro del rango [0, 1) (nunca va devolver 1).
 }
 
 // Add comments to explain what this function does. You're meant to use Google!
 function s(w1, w2) {
-  return w1.concat(w2);
-}
+  return w1.concat(w2); //Combina dos o más cadenas de texto y devuelve una cadena de texto nueva.
+} //Devuelve dos cadenas concatenadas.
 
 function concatenate(firstWord, secondWord, thirdWord) {
   // Write the body of this function to concatenate three words together.
+  // Otra manera de hacer 
+  //return firstWord + " " + secondWord + " " + thirdWord;
+  return firstWord.concat(" " + secondWord + " " + thirdWord);
   // Look at the test case below to understand what this function is expected to return.
 }
 
