@@ -26,6 +26,11 @@ function addTaxAndFormatCurrency(amount) {
   return totalPre;
 }
 
+//Otra manera de hacer la segunda función:
+//function addTaxAndFormatCurrency(amount) {
+//  return "£" + calculateSalesTax(amount).toFixed(2);
+//}
+
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.
 To run these tests type `node 4-tax.js` into your terminal
