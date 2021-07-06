@@ -1,5 +1,5 @@
 function boolChecker(bool) {
-  if (typeof bool === "boolean") { //Se completa con boolean
+  if (typeof bool === "boolean") { //Se completa con boolean, ejecutamos en la consola: node y luego typeof true y nos da resultado boolean.
     return "You've given me a bool, thanks!";
   }
 
