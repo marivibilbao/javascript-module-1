@@ -10,9 +10,9 @@ function isNegative(num) {
 }
 
 //Agrego función
-//function isBetween5and10(num) {
-//  return(num);
-//}
+function isBetween5and10(num) {
+  return(num >= 5 || num <= 10); // OR
+}
 
 
 /* 
