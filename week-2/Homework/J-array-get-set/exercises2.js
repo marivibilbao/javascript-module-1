@@ -8,6 +8,10 @@
 
 var numbers = [1, 2, 3]; // Don't change this array literal declaration
 
+numbers [numbers.length] = 4; //Agrego número 4 al final de la matriz.
+
+numbers [0] = 1; //Cambio el primer valor a 1
+
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
