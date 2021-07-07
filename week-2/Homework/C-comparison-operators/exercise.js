@@ -7,14 +7,21 @@
 
 var studentCount = 16;
 var mentorCount = 9;
-var moreStudentsThanMentors; // finish this statement
+var moreStudentsThanMentors = 16>9; // finish this statement
+//Complete la variable "moreStudentsThanMentors" para que de como resultado: true.
+//¿Hay más estudiantes que mentores?
 
 var roomMaxCapacity = 25;
-var enoughSpaceInRoom; // finish this statement
+var enoughSpaceInRoom = 25<=(16+9); // finish this statement
+//Complete la variable "enoughSpaceInRoom", resultado: true
+//Si no coloco el símbolo "=" da falso, ya que toma es menor a 25.
+//¿Hay suficiente espacio en la sala para todos los estudiantes y mentores?
 
 var personA = "Daniel";
 var personB = "Irina";
-var sameName; // finish this statement
+var sameName = "Daniel" == "Irina"; // finish this statement
+//Complete la variable sameName.
+//A y B tienen el mismo nombre?
 
 /* 
   DO NOT EDIT BELOW THIS LINE
