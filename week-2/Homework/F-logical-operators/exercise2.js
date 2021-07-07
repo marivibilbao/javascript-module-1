@@ -19,6 +19,11 @@ function isShortName(name){
   return(name.length <= 6); //Agrego propiedad ".length" para saber la cantidad de letras que tiene el nombre.
 }
 
+//Agrego función
+function startsWithD(name){
+  return(name.startsWith("D")); //El método startsWith() indica si una cadena de texto comienza con los caracteres de una cadena de texto concreta, devolviendo true o false según corresponda.
+}
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
