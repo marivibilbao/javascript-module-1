@@ -10,7 +10,7 @@ function first(arr) {
 
 function last(arr) {
   return arr [arr.length - 1]; // complete this statement
-}
+}                              //.length da la longitud del arreglo (4) y le resto (-1) uno para que devuelva la posición.
 
 /* 
   DO NOT EDIT BELOW THIS LINE
