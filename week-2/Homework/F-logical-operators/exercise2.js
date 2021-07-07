@@ -5,7 +5,15 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(num) {
+  return(num < 0); //Número es menor a 0, sería negativo.
+}
+
+//Agrego función
+//function isBetween5and10(num) {
+//  return(num);
+//}
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
