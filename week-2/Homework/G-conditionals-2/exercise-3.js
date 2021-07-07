@@ -15,7 +15,7 @@ function calculateGrade(mark) { //Completo la función
     return "B";
   } else if (mark <= 60 || mark >= 50){ // OR
     return "C";
-  } else (){ //DEBO REVISAR
+  } else { //DEBO REVISAR
     return "F";
   }
 }

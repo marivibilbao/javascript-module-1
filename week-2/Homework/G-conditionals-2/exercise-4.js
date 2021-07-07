@@ -8,8 +8,15 @@
   Hint: Google how to check if a string contains a word
 */
 
-function containsCode(sentence) {
+//Agrego información adicional
+//El método includes() determina si una cadena de texto puede ser encontrada dentro de otra cadena de texto, devolviendo true o false según corresponda.
 
+function containsCode(sentence) { //Completar la función
+  if (sentence.includes("code")){
+    return "true";
+  } else {
+    return "false";
+  }
 }
 
 /* 
