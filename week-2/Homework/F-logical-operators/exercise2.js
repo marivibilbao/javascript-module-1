@@ -14,6 +14,11 @@ function isBetween5and10(num) {
   return(num >= 5 || num <= 10); // OR
 }
 
+//Agrego función
+function isShortName(name){
+  return(name.length <= 6); //Agrego propiedad ".length" para saber la cantidad de letras que tiene el nombre.
+}
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
