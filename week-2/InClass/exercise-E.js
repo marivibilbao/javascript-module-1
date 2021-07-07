@@ -5,7 +5,7 @@
 //num > 5 && num < 15 ----- true
 //num > 10 || num === 10 --- true
 //false || true ------ true
-///NOTtrue ------ false
+///NOT !true ------ false
 //let greaterThan5 = num > 5 --------- undefined
-//NOTgreaterThan5 -------- false
-//NOT(num === 10) ----------- false
+//NOT !greaterThan5 -------- false
+//NOT !(num === 10) ----------- false
