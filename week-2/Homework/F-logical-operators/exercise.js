@@ -11,14 +11,16 @@ var cssLevel = 4;
 
 // Finish the statement to check whether HTML, CSS knowledge are above 5
 // (hint: use the comparison operator from before)
-var htmlLevelAbove5;
-var cssLevelAbove5;
+var htmlLevelAbove5 = htmlLevel > 5; //Agrego declaración, en este caso 8 mayor que 5 -- True
+
+var cssLevelAbove5 = cssLevel > 5; //Agrego declaración, en este caso 4 mayor que 5 -- False
 
 // Finish the next two statement
 // Use the previous variables and logical operators
 // Do not "hardcode" the answers
-var cssAndHtmlAbove5;
-var cssOrHtmlAbove5;
+var cssAndHtmlAbove5 = htmlLevel > 5 && cssLevel > 5; //Agrego sentencia (&& -- AND)
+
+var cssOrHtmlAbove5 = htmlLevel > 5 || cssLevel > 5; //Agrego sentencia (|| -- OR)
 
 /* 
   DO NOT EDIT BELOW THIS LINE
