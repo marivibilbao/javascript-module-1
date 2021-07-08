@@ -10,6 +10,11 @@ let n = 10;
 
 function sumTillNum(num){
 	//your code here
+	for(let i=n; i > 0; i--){ //Para, declaro variable i / condición i mayor que 0 / descuento uno a cada vuelta a i. 
+		sumProgre += i;
+	}						 // i-- es igual que i-1.
+	return sumProgre;
 }
 
+let sumProgre = 0;
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
