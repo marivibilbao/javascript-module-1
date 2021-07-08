@@ -10,8 +10,8 @@ let n = 10;
 
 function sumTillNum(num){
 	//your code here 
-	while(num > 0){ //Se agrega condición, mientras el número sea mayor que 0, hace lo que sigue.
-		sumProgre += num; //0 + número (10). La sumProgre sería 10 en la primera vuelta.
+	while(num > 0){ //Se agrega condición, mientras el número sea mayor que 0, hace lo que sigue. Si la condición es verdadera.
+		sumProgre += num; //0 + número (10). La sumProgre sería 10 en la primera vuelta. En la segunda vale 19. 10+9+8+7+6+5+4+3+2+1+0
 		num = num-1 //valor de número -1.
 	}
 	return sumProgre;
