@@ -2,7 +2,7 @@ function exponential(number) {
   return number * number;
 }
 
-function isEven(number) {
+function isEven(number) { //Devuelve número si este es par.
   return number % 2 === 0;
 }
 
