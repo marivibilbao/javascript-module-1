@@ -14,6 +14,16 @@ function negativeOrPositive(number) {
   }
 }
 
+//Otra forma de hacerlo
+//function negativeOrPositive(number) {
+//  if (number <= 0){
+//    return "negative";
+//  } else{
+//    return "positive";
+//  }
+//}
+
+
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
