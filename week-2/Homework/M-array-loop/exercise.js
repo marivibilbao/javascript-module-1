@@ -26,3 +26,8 @@ const daysOfWeek = [
 ];
 
 toGetStringT(daysOfWeek);
+
+//Otra forma de hacerlo:
+//daysOfWeek
+//  .filter(day => day [0]==="T")
+//  .forEach(day => console.log(day))
