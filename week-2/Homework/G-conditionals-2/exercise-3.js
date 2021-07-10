@@ -11,10 +11,10 @@
 function calculateGrade(mark) { //Completo la función
   if (mark >= 80){ //Si nota es mayor o igual a 80
     return "A"; //Resultado A
-  } else if (mark < 80 && mark > 60){ // AND
+  } else if (mark < 80 && mark > 60){ // AND //Se puede obviar esta parte: "mark < 80 &&".
     return "B";
-  } else if (mark <= 60 && mark >= 50){ // Lo cambie a AND y funcionó
-    return "C";
+  } else if (mark <= 60 && mark >= 50){ //Lo cambie a AND y funcionó. //Se puede obviar esta parte: "mark <= 60 &&"
+    return "C";                         //Que no sea menor que 50 (!(mark < 50))
   } else {
     return "F";
   }
