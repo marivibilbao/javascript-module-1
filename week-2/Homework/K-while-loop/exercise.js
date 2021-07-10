@@ -12,6 +12,7 @@ let n = 10;
 
 function sumTillNum(num){
 	//your code here 
+	let sumProgre = 0;
 	while(num > 0){ //Se agrega condición, mientras el número sea mayor que 0, hace lo que sigue. Si la condición es verdadera.
 		sumProgre += num; //0 + número (10). La sumProgre sería 10 en la primera vuelta. En la segunda vale 19. 10+9+8+7+6+5+4+3+2+1+0
 		num = num-1 //valor de número -1.
@@ -19,7 +20,6 @@ function sumTillNum(num){
 	return sumProgre;
 }
 
-let sumProgre = 0;
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
 
 
