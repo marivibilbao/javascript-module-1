@@ -6,6 +6,8 @@
 
 */
 
+//Hice el ejercicio sumando
+
 let n = 10;
 
 function sumTillNum(num){
@@ -21,7 +23,24 @@ let sumProgre = 0;
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
 
 
-//Para enterder el ejercicio:
+//--------------------------------------------------------------------
+
+//Forma para cadena (explicada durante la clase):
+//function sumTillNum(num){
+//	let texto = "";
+//	for(let i=0; i <= num; i++){
+//		if (i > 0){
+//			texto += " + ";
+//		}
+//		texto += i;
+//	}
+//	console.log(texto);
+//}
+//Para que me de como resultado: 0 + 1 + 2 + 3 + 4
+
+//--------------------------------------------------------------------
+
+//Para entender el ejercicio:
 //let n = 3;
 //let sumProgre = 0;
 
