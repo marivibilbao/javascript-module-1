@@ -18,9 +18,9 @@ var cssLevelAbove5 = cssLevel > 5; //Agrego declaración, en este caso 4 mayor q
 // Finish the next two statement
 // Use the previous variables and logical operators
 // Do not "hardcode" the answers
-var cssAndHtmlAbove5 = htmlLevel > 5 && cssLevel > 5; //Agrego sentencia (&& -- AND)
+var cssAndHtmlAbove5 = htmlLevelAbove5 && cssLevel > 5; //Agrego sentencia (&& -- AND)
 
-var cssOrHtmlAbove5 = htmlLevel > 5 || cssLevel > 5; //Agrego sentencia (|| -- OR)
+var cssOrHtmlAbove5 = cssAndHtmlAbove5 || cssLevel > 5; //Agrego sentencia (|| -- OR)
 
 /* 
   DO NOT EDIT BELOW THIS LINE
