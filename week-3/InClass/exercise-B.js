@@ -1,13 +1,13 @@
 let studentsA = ["Jesús", "Juan", "Wendy", "Matias", "Julian"];
 let studentsB = ["Génesis", "Gabriela", "Caleb"];
-let studentsTotal = studentsA.concat(studentsB); //Combino estudiantes A con B
+let studentsTotal = studentsA.concat(studentsB); //CONCAT: Combino estudiantes A con B
 
 function checkStudents (name, studentsTotal){
     if (studentsTotal.includes(name)){
-        console.log(name + "is at the class with " + studentsTotal.join(", "));
+        console.log(name + "is at the class with " + studentsTotal.join(", ")); //JOIN: Devuelve cadena separados por coma en este caso.
     }else {
         console.log(name + "is not at the class with " + studentsTotal.join(", "));
     }
 }
 
-checkStudents("Ana ", studentsTotal.sort()); //Ordeno alfabéticamente la lista de estudiantes
+checkStudents("Ana ", studentsTotal.sort()); //SORT: Ordeno alfabéticamente la lista de estudiantes
