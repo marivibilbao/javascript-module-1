@@ -6,7 +6,9 @@
 //------------------------------------------------------------------------
 
 let names = ["Jesús", "Nancy", "Pedro", "María Victoria"];
-let myName = names.find(names => names === "María Victoria") ? "Found me!" : "Haven't found me :(" 
+let yourName = ("María Victoria");
+
+let myName = names.find(names => names === yourName) ? "Found me!" : "Haven't found me :(" 
 // Si mi nombre lo cambio por Ana me dice que no se encontró.
 // Utilizo una condición de la siguiente manera ---> ? val1 : val2
 
