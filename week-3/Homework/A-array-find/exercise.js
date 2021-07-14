@@ -5,11 +5,23 @@
 
 // write your code here
 
-var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
+//Primero hice la función normal:
+//var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"]; //Venia ya definido en el ejercicio.
+//function myFunct(names){
+//  return (names.length > 7) && (names[0] == "A");
+//}
+//let findLongNameThatStartsWithA = names.find(myFunct);
+//console.log(findLongNameThatStartsWithA);
 
-var longNameThatStartsWithA = findLongNameThatStartsWithA(names);
+//-----------------------------------------------------------------------------------------------------
 
-console.log(longNameThatStartsWithA);
+var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"]; //Venia ya definido en el ejercicio.
+
+let findLongNameThatStartsWithA = (arr) => arr.find(names => names[0] == "A" && names.length > 7);
+
+var longNameThatStartsWithA = findLongNameThatStartsWithA(names); //Venia ya definido en el ejercicio.
+
+console.log(longNameThatStartsWithA); //Venia ya definido en el ejercicio.
 
 /* EXPECTED OUTPUT */
 // "Alexandra"
