@@ -7,7 +7,8 @@
 var mentors = ["Daniel", "Irina", "Rares"];
 var students = ["Rukmini", "Abdul", "Austine", "Swathi"];
 
-var everyone; // complete this statement
+var everyone = mentors.concat(students); // complete this statement
+//CONCAT Agrega o concatena otro valor o matriz a la matriz.
 
 /* 
   DO NOT EDIT BELOW THIS LINE
