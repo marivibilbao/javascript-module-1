@@ -5,9 +5,9 @@
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
-var groupIsOnlyStudents = group.every(names => names.includes()); // complete this statement
+var groupIsOnlyStudents = group.every(names => students.includes(names)); // complete this statement
 //EVERY() Busca en una matriz y devuelve verdadero si cada elemento satisface la función de predicado que proporcionó. 
-//De lo contrario, devuelve falso .
+//De lo contrario, devuelve falso.
 
 if (groupIsOnlyStudents) {
   console.log("The group contains only students");
