@@ -17,7 +17,30 @@ arr.forEach( arr =>{
   }else if(arr % 3 == 0 && arr % 5 == 0){
     console.log("FizzBuzz")
   } else{
-    console.log(arr)}});
+    console.log(arr)}
+});
+
+//----------------------------------------------------------------
+
+//Otra mannera de hacer el ejercicio:
+//const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+//const isMultiple = (num1, num2) => num1 % num2 == 0;
+//const isFizz = (num) => isMultiple(num, 3);
+//const isBuzz = (num) => isMultiple(num, 5);
+//const getFizzBuzz = function (number){
+//  if (isFizz(number) && isBuzz(number)){
+//    return "FizzBuzz"
+//  }else if (isFizz(number)){
+//    return "Fizz"
+//  }else{
+//    return number
+//  }
+//}
+//arr
+//  .map(getFizzBuzz)
+//  .forEach(item => console.log(item))
+
+//-----------------------------------------------------------------
 
 /* EXPECTED OUTPUT */
 
