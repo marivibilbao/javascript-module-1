@@ -8,9 +8,11 @@
 */
 
 function capitalise(str) {
-  //return str.split(nombre => nombre.charAt(0).toUpperCase()).join();
-  let primeraMayusc = str[0].toUpperCase() + str.slice(1);
-  return primeraMayusc.split().join();
+  //Esta forma está bien, pero solicitan .split() y .join():
+  //return str[0].toUpperCase() + str.slice(1);
+  let splitted = str.split("");
+  splitted[0] = splitted[0].toUpperCase();
+  return splitted.join("")
 }
 
 
