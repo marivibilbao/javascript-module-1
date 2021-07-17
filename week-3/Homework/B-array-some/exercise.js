@@ -8,11 +8,13 @@
 
 var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]];
 
-let nullValue = (arr) => arr.some(name => name === null); //SOME busca dentro del array y devuelve true si uno de los elementos cumple la condición.
+let nullValue = (arr) => arr.some(item => item === null); //SOME busca dentro del array y devuelve true si uno de los elementos cumple la condición.
 
-console.log(nullValue(pairsByIndex));
+//console.log(nullValue(pairsByIndex));
 
-process.exit(1); //Si lo coloco arriba en la función no da true simplemente sale.
+if (nullValue(pairsByIndex)){
+  process.exit(1);
+} //Si lo coloco arriba en la función no da true simplemente sale.
 //Aquí abajo me da como resultado true y sale no ejecuta más nada.
 
 // If there is a null value in the array exit the program with the error code
