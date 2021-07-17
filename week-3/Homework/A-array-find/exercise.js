@@ -17,7 +17,7 @@
 
 var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"]; //Venia ya definido en el ejercicio.
 
-let findLongNameThatStartsWithA = (arr) => arr.find(names => names[0] == "A" && names.length > 7);
+let findLongNameThatStartsWithA = (names) => names.find(name => name[0] == "A" && name.length > 7);
 
 var longNameThatStartsWithA = findLongNameThatStartsWithA(names); //Venia ya definido en el ejercicio.
 
