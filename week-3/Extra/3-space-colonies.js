@@ -8,9 +8,11 @@
   NOTE: don't include any element that is not a "family".
 */
 
-function colonisers() {
-
+function colonisers(families) {
+  return families.filter(family => family.startsWith("A") && family.includes("family"))
 }
+
+//startsWith() indica si una cadena de texto comienza con los caracteres de una cadena de texto concreta, devolviendo true o false según corresponda.
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
